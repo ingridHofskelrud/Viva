@@ -44,7 +44,7 @@ void loop() {
     fadeOut(brightness);
     lysErPaa = false;
 
-  }else if (potValue >= 10 && !lysErPaa){ // Hvis potmeter skrus opp og lyset er av, fade inn
+  }else if (potValue >= 10 && !lysErPaa){ // Hvis potensiometer skrus opp og lyset er av, fade inn
     fadeIn(brightness);
     lysErPaa = true;
 
