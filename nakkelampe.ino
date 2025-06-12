@@ -70,9 +70,9 @@ void loop() {
   // Velger riktig farge på batteriindikator basert på gjenværende prosent
   uint32_t batteryColor; 
   if(batteryPercent > 60){
-    batteryColor = battery_strip.Color(0,255,0); // Grønn hvis bra batteri
+    batteryColor = battery_strip.Color(0,255,0); // Grønn hvis godt batteri
   }else if(batteryPercent > 20){
-    batteryColor = battery_strip.Color(255,255,0); // Gul hvis mellomnivå
+    batteryColor = battery_strip.Color(255,255,0); // Gul hvis middels batteri
   }else{
     batteryColor = battery_strip.Color(255,0,0); // Rødt hvis lavt batteri
   }
