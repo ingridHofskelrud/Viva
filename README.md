@@ -16,7 +16,6 @@ Lampen består av:
 - **Mykt bomullsstoff** i mørk blåfarge for komfort og diskret utseende
 - **Arduino Uno** for styring av elektronikken
 
-Lampen er koblet opp med motstander for sikker drift, og lysstyrken styres av et potensiometer som sender signaler til Arduinoen.
 
 ## Kodeoversikt
 
