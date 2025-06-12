@@ -29,16 +29,9 @@ Koden er utviklet for å styre LED-stripene og batteriindikatoren via et potensi
 - `fadeOut(int currentBrightness)`: Dimmer gradvis ned lyset
 
 
-## Bruk
-
-1. **Koble sammen komponentene** som beskrevet i kretsdiagrammet nedenfor.
-2. **Last opp koden til Arduinoen**.
-3. **Ta på lampen** og juster lysstyrken med dimmehjulet.
-4. **Sjekk batteriindikatoren** for å se batteristatus.
-
 ## Kretsdiagram
+Nedenfor vises kretsdiagrammet for nakkelampen. Diagrammet illustrerer hvordan LED-stripene (for lys og batteriindikator) og dimmehjulet (potensiometer) er koblet til Arduinoen via relevante porter. 
 ![Kretsdiagram](kretsdiagram.jpg)
-
 
 
 ## Dokumentasjon
